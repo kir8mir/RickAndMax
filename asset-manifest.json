@@ -1,10 +1,15 @@
 {
   "files": {
-    "main.js": "/RickAndMax/static/js/main.7f2213b0.js",
+    "main.css": "/RickAndMax/static/css/main.b5078405.css",
+    "main.js": "/RickAndMax/static/js/main.fdeb3ebb.js",
+    "static/media/back.jpg": "/RickAndMax/static/media/back.54f041583ea61c43d97f.jpg",
+    "static/media/rick.jpeg": "/RickAndMax/static/media/rick.d0b683fd501349bc8e90.jpeg",
     "index.html": "/RickAndMax/index.html",
-    "main.7f2213b0.js.map": "/RickAndMax/static/js/main.7f2213b0.js.map"
+    "main.b5078405.css.map": "/RickAndMax/static/css/main.b5078405.css.map",
+    "main.fdeb3ebb.js.map": "/RickAndMax/static/js/main.fdeb3ebb.js.map"
   },
   "entrypoints": [
-    "static/js/main.7f2213b0.js"
+    "static/css/main.b5078405.css",
+    "static/js/main.fdeb3ebb.js"
   ]
 }
