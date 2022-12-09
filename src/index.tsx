@@ -4,7 +4,6 @@ import './index.scss';
 import App from './App';
 import { Provider } from 'react-redux';
 import store from './app/store';
-import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { CharactersList } from './components/Characters/CharactersList';
 import { LocationList } from './components/Locations/LocationList';
@@ -37,4 +36,3 @@ root.render(
   </React.StrictMode>
 );
 
-reportWebVitals();
