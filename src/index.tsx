@@ -14,6 +14,22 @@ const root = ReactDOM.createRoot(
 );
 
 root.render(
-    <h1>HELLO WORLD</h1>
+    <Provider store={store}>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<App />}>
+            <Route index element={<h1 className='home-title'>Rick and Morty</h1>} />
+            <Route path="home" element={<Navigate to="/" />} />
+            <Route path='Characters'>
+              <Route index element={<CharactersList />} />
+              <Route path=":CharactersId" element={<CardId />} />
+            </Route>
+            <Route path="Locations" element={<LocationList />} />
+            <Route path="Episodes" element={<EpisodeList />} />
+            <Route path="*" element={<Navigate to="/" />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </Provider>
 );
 

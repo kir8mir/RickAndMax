@@ -7,17 +7,7 @@ import './App.scss';
 function App() {
 
   return (
-    <div className="wrapper">
-      <div className="top">
-        <Header />
-      </div>
-      <div className="content">
-        <Outlet />
-      </div>
-      <div className="bottom">
-        <Footer />
-      </div>
-    </div>
+    <h1>HELLO WORLD</h1>
   );
 }
 
