@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/RickAndMortyApi/static/css/main.4235102a.css",
-    "main.js": "/RickAndMortyApi/static/js/main.5d810f0d.js",
-    "static/js/787.28cb0dcd.chunk.js": "/RickAndMortyApi/static/js/787.28cb0dcd.chunk.js",
-    "static/media/back.jpg": "/RickAndMortyApi/static/media/back.54f041583ea61c43d97f.jpg",
-    "static/media/rick.jpeg": "/RickAndMortyApi/static/media/rick.d0b683fd501349bc8e90.jpeg",
-    "index.html": "/RickAndMortyApi/index.html",
-    "main.4235102a.css.map": "/RickAndMortyApi/static/css/main.4235102a.css.map",
-    "main.5d810f0d.js.map": "/RickAndMortyApi/static/js/main.5d810f0d.js.map",
-    "787.28cb0dcd.chunk.js.map": "/RickAndMortyApi/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/RickAndMax/static/css/main.564ff02d.css",
+    "main.js": "/RickAndMax/static/js/main.b22f2965.js",
+    "static/js/787.28cb0dcd.chunk.js": "/RickAndMax/static/js/787.28cb0dcd.chunk.js",
+    "static/media/back.jpg": "/RickAndMax/static/media/back.54f041583ea61c43d97f.jpg",
+    "static/media/rick.jpeg": "/RickAndMax/static/media/rick.d0b683fd501349bc8e90.jpeg",
+    "index.html": "/RickAndMax/index.html",
+    "main.564ff02d.css.map": "/RickAndMax/static/css/main.564ff02d.css.map",
+    "main.b22f2965.js.map": "/RickAndMax/static/js/main.b22f2965.js.map",
+    "787.28cb0dcd.chunk.js.map": "/RickAndMax/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4235102a.css",
-    "static/js/main.5d810f0d.js"
+    "static/css/main.564ff02d.css",
+    "static/js/main.b22f2965.js"
   ]
 }

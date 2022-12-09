@@ -17,6 +17,7 @@ export interface Location {
   url: string;
 }
 
+
 export interface Origin {
   name: string;
   url: string;
