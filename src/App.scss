@@ -1,0 +1,46 @@
+@import './source/placehorder.scss';
+@import './source/Variables.scss';
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url(./source/back.jpg);
+  background-position: 50% 60%;
+  background-repeat: no-repeat;
+  object-position: top center;
+  object-fit: covert;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.content {
+  flex: 1 1 auto;
+  padding-top: 50px;
+}
+
+
+.flex-row {
+  @extend %style-for-card-char;
+  @extend %flex-box;
+}
+
+.home-title {
+  font-size: 100px;
+  font-weight: 800;
+  color: $font-color;
+  margin-left: 90px;
+  animation-name: title;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-direction: normal;
+}
+
+@keyframes title {
+0% {
+  transform: scale(1.5);
+}
+100% {
+  transform: scale(1);
+}
+}
